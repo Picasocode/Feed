@@ -12,16 +12,14 @@ Python: Ensure that Python is installed on your system. You can download it from
 
     If you don't have pip, you can install pip separately.
 
+    python -m pip install -U pip 
+
 Setup
 Clone the Repository: Clone the project repository to your local machine using Git:
 
     git clone <repository_url>
     
-Replace <repository_url> with the URL of your project's Git repository.
-
-Navigate to the Project Directory:
-
-    cd project_directory
+    cd Feed
 
 Replace project_directory with the name of your project directory.
 
