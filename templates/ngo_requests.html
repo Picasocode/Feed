@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NGO Food Request</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-r from-green-400 to-green-600 min-h-screen flex items-center">
+  
+    <div class="mx-auto bg-white p-6 rounded-md shadow-md">
+        <div class="mb-4 text-center">
+            <img src="./static/img/logo.png" alt="Logo" class="w-22 mx-auto">
+        </div>
+        <h1 class="text-2xl font-semibold mb-4">NGO Food Request</h1>
+        <form action="http://127.0.0.1:5000/ngo_requests" method="POST"  class="space-y-4">
+            <div>
+                <label for="ngo_name" class="block font-medium">NGO Name:</label>
+                <input type="text" name="ngo_name" class="w-full p-2 rounded border" required>
+            </div>
+            <div>
+                <label for="contact_person" class="block font-medium">Contact Person:</label>
+                <input type="text" name="contact_person" class="w-full p-2 rounded border" required>
+            </div>
+            <div>
+                <label for="email" class="block font-medium">Email:</label>
+                <input type="email" name="email" class="w-full p-2 rounded border" required>
+            </div>
+            <div>
+                <label for="phone" class="block font-medium">Phone Number:</label>
+                <input type="tel" name="phone" class="w-full p-2 rounded border" required>
+            </div>
+            <div>
+                <label for="food_items" class="block font-medium">Food Items Needed:</label>
+                <textarea name="food_items" class="w-full p-2 rounded border" required></textarea>
+            </div>
+            <button type="submit" class="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-700 w-full">
+                Submit Request
+            </button>
+        </form>
+    </div>
+</body>
+</html>

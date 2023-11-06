@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        
+        @keyframes slideIn {
+            from {
+                transform: translateY(0);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(-5%);
+                opacity: 1;
+            }
+        }
+        .animation-slide-in {
+            animation: slideIn 1s ease-in-out;
+        }
+        .gradient-background {
+            background: linear-gradient(to bottom, #f6ad55, #f08e31);
+            width: 100%;
+            height: 100vh;
+
+            
+        }
+        
+    </style>
+</head>
+   <body class="gradient-background text-white">
+
+    <nav class="p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-3xl font-extrabold bg-gradient-to-b from-orange-500 to-orange-300 bg-clip-text">FEED</a>
+            <ul class="flex space-x-6">
+                <li><a href="/home" class="text-white">Home</a></li>
+                <li><a href="/logout" class="bg-pink-900 text-white font-semibold px-8 py-3 mt-8 rounded-full hover:bg-pink-700 hover:text-pink-200">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section >
+        <div class="container mx-auto p-10 text-center">
+            <div class="animation-slide-in">
+                <h1 class="text-5xl font-extrabold">Feed</h1>
+                <p class="text-2xl mt-6">Feed the people by save the food</p>
+                <a href="/list"><button class="bg-pink-900 text-white font-semibold px-8 py-3 mt-8 rounded-full hover:bg-pink-700 hover:text-pink-200">Have/Need Food Give Request -> </button></a>
+            </div>
+        </div>
+    </section>
+
+  
+    <section >
+        <div class="container mx-auto p-10 text-center">
+            <div class="animation-slide-in">
+                <h2 class="text-4xl font-extrabold">Quotes</h2>
+                <div class="grid grid-cols-3 gap-8 mt-8">
+                    <div class="bg-pink-200 rounded-lg p-6">
+                        <p class="text-pink-900">There is nothing greater than love invested in helping to feed the impoverished living in hunger.” </p>
+                        <p class="text-pink-600 mt-4"> ― Wayne Chirisa</p>
+                    </div>
+                    <div class="bg-pink-200 rounded-lg p-6">
+                        <p class="text-pink-900">The test of our progress is not whether we add more to the abundance of those who have much it is whether we provide enough for those who have little.” </p>
+                        <p class="text-pink-600 mt-4">– Franklin D. Roosevelt</p>
+                    </div>
+                    <div class="bg-pink-200 rounded-lg p-6">
+                        <p class="text-pink-900">“Without food, man at most can live but a few weeks; without it all other components of social justice are meaningless.” </p>
+                        <p class="text-pink-600 mt-4">– Norman Borlaug</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
