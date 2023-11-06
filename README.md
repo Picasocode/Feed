@@ -17,7 +17,7 @@ Python: Ensure that Python is installed on your system. You can download it from
 Setup
 Clone the Repository: Clone the project repository to your local machine using Git:
 
-    git clone <repository_url>
+    git clone https://github.com/Picasocode/Feed.git
     
     cd Feed
 
