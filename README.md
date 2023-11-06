@@ -3,7 +3,7 @@ Flask App Setup
 This README provides instructions for setting up and running a Flask web application using Python's package manager (pip).
 Prerequisites
 
-    Python: Ensure that Python is installed on your system. You can download it from the Python official website.
+Python: Ensure that Python is installed on your system. You can download it from the Python official website.
 
     pip: pip is a package manager for Python. It is usually included with Python. To verify if you have pip installed, open your terminal/command prompt and run:
 
@@ -14,16 +14,15 @@ Prerequisites
     If you don't have pip, you can install pip separately.
 
 Setup
-
-    Clone the Repository: Clone the project repository to your local machine using Git:
+Clone the Repository: Clone the project repository to your local machine using Git:
 
     bash
 
-git clone <repository_url>
+    git clone <repository_url>
 
-Replace <repository_url> with the URL of your project's Git repository.
+    Replace <repository_url> with the URL of your project's Git repository.
 
-Navigate to the Project Directory:
+    Navigate to the Project Directory:
 
 bash
 
@@ -39,37 +38,37 @@ python -m venv venv
 
 Activate the virtual environment:
 
-    On Windows:
+On Windows:
 
     bash
 
-venv\Scripts\activate
+    venv\Scripts\activate
 
 On macOS and Linux:
 
-bash
+    bash
 
     source venv/bin/activate
 
 Install Required Packages: Install the necessary packages for your Flask application. The required packages are typically listed in a requirements.txt file. You can install them using pip:
 
-bash
+    bash
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Run the Flask App: You can run the Flask app with the following command:
 
-bash
+    bash
 
     python app.py
 
-    Your Flask app should now be running locally. Open your web browser and go to http://localhost:5000 to access the app.
+Your Flask app should now be running locally. Open your web browser and go to http://localhost:5000 to access the app.
 
 Usage
 
-    Customize the Flask app by modifying the app.py file and adding your routes, views, and templates.
+Customize the Flask app by modifying the app.py file and adding your routes, views, and templates.
 
-    For additional configuration, refer to the Flask documentation.
+For additional configuration, refer to the Flask documentation.
 
 License
 
